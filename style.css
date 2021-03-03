@@ -37,11 +37,49 @@ nav .logo, .spot{
 
     /* padding: 20px 0; */
     background-color: rgb(68, 101, 145);
-    width: 45%;
+    width: 42%;
     /* height: 100px; */
     float: left;
     padding: 0 0 0 10px;
 }
+
+.btn_green {
+
+    background-color: rgb(58, 209, 134);
+    color: whitesmoke;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.btn {
+
+    background-color: rgb(68, 101, 145);
+    color: whitesmoke;
+    border: 0;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    margin: 0 10px
+
+
+}
+
+.btn_spot {
+
+    background-color: rgb(58, 209, 134);
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 20px;
+    border: 0;
+    font-size: 20px;
+
+
+}
+
+
+
 
 nav::after , .hero_img::after, .row::after {
 
@@ -71,8 +109,9 @@ nav ul li a {
     float: right;
     height: 100px;
     background-color: rgb(68, 101, 145);
-    width: 25%;
+    width: 35%;
     text-align: right;
+    padding: 0 0 0 10px;
 
 }
 
@@ -314,6 +353,16 @@ footer::after {
     
 }
 
+.footer_btn {
+
+    background-color: rgb(58, 209, 134);
+    color: whitesmoke;
+    border: 0;
+    border-radius: 10px;
+    height: 40px;
+
+
+}
 .help {
 
     width: 80%;
